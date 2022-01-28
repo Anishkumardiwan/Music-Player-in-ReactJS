@@ -18,7 +18,7 @@ body{
   justify-content: space-between;
 }
 
-.justify-even{
+.justify-evenly{
   justify-content: space-evenly;
 }
 
@@ -106,7 +106,25 @@ body{
   font-size: 25px;
 }
 
+li{
+  list-style: none;
+}
 
+.t-decoration{
+  text-decoration: none;
+  color: #fff;
+}
+
+.d-visilibity{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: -1;
+}
 
 
 
